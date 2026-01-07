@@ -22,7 +22,7 @@ const app = express();
 
 // helps app to read JSON
 app.use(express.json());
-
+ app.listen(port, () => console.log(`Server started on port ${port}`));
 // Example Route: Get all cards
 app.get('/allcards', async (req, res) => {
     try {
