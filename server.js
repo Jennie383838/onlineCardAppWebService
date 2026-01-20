@@ -28,7 +28,7 @@ const cors = require("cors");
 const allowedOrigins = [
     "http://localhost:3000",
     // "https://YOUR-frontend.vercel.app",   // add later
-    "https://onlinecardappwebservice-iu6e.onrender.com"  // add later
+    // "https://onlinecardappwebservice-iu6e.onrender.com"  // add later
 ];
 
 app.use(
