@@ -1,3 +1,8 @@
+import cors from "cors";
+
+app.use(cors({
+    origin: "http://localhost:3000"
+}));
 // include required packages
 const express = require("express");
 const mysql = require("mysql2/promise");
